@@ -1,0 +1,29 @@
+{
+  "name": "factory-cockpit-demo-video",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "record": "node record.mjs",
+    "prepare-data": "node prepare.mjs",
+    "render": "remotion render src/index.ts demo out/demo.mp4 --codec h264 --crf 18",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@remotion/cli": "^4.0.512",
+    "@remotion/google-fonts": "^4.0.512",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.512"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "playwright": "^1.62.1",
+    "typescript": "^7.0.2"
+  }
+}

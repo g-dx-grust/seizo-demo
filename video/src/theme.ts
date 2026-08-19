@@ -1,0 +1,21 @@
+// アプリ本体のデザイントークン（src/index.css と一致させる）
+export const T = {
+  navy: '#101828',
+  navy2: '#1D2939',
+  blue: '#2563EB',
+  blueL: '#EAF1FE',
+  bg: '#F4F6FA',
+  surface: '#FFFFFF',
+  line: '#E4E9F0',
+  t1: '#19233A',
+  t2: '#5B6B84',
+  t3: '#9AA7BC',
+  side: '#A9B4C8',
+  sideDim: '#8494AC',
+  red: '#DC2626',
+  redL: '#FBEAE9',
+  green: '#16A34A',
+  amber: '#D97706',
+  font: '"Noto Sans JP", "Hiragino Sans", sans-serif',
+  radius: 14,
+};

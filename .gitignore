@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# 動画（生成物・サイズ大）
+video/clips/*.webm
+video/public/*.mp4
+video/out/
+
+# editor / OS
+.DS_Store
+*.local
+.vscode/

@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #F4F6FA;
+  --color-surface: #FFFFFF;
+  --color-line: #E4E9F0;
+  --color-t1: #19233A;
+  --color-t2: #5B6B84;
+  --color-t3: #9AA7BC;
+  --color-blue: #2563EB;
+  --color-blue-l: #EAF1FE;
+  --color-green: #16A34A;
+  --color-green-l: #E7F5EC;
+  --color-amber: #D97706;
+  --color-amber-l: #FCF1DE;
+  --color-red: #DC2626;
+  --color-red-l: #FBEAE9;
+  --color-navy: #101828;
+  --color-navy2: #1D2939;
+  --color-purple: #7C3AED;
+  --color-purple-l: #F2ECFD;
+  --color-track: #EEF2F8;
+  --color-thead: #F8FAFC;
+  --color-plan: #CBD6E6;
+  --color-side: #A9B4C8;
+  --color-side-dim: #8494AC;
+  --font-sans: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-t1);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes toastin {
+  from { opacity: 0; transform: translate(-50%, 10px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
